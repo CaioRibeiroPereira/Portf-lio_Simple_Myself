@@ -1,0 +1,636 @@
+/*Estilo Geral*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  body {
+    background-color: #000;
+    height: 100%;
+    color: white;
+  }
+  
+  /*Estilo cabeçalho e nav */
+  
+  header {
+    padding: 40px 4%;
+  }
+  
+  header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  header a {
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition: 0.2s;
+  }
+  
+  header a:hover {
+    color: #fff;
+    transform: scale(1.15);
+  }
+  
+  header nav ul {
+    list-style-type: none;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+  }
+  
+  .btn-contato button {
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .btn-contato button:hover {
+    box-shadow: 0px 0px 8px #00ff08;
+  }
+  
+  /*corpo inicial*/
+  
+  .conteudo-inicio {
+    background-image: linear-gradient(to top, transparent 0%, #000000 100%),
+      url("/imagens/fundo_pagina.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  
+  .conteudo-inicio h1 {
+    margin: 10px 0;
+    padding: 70px 0px 20px 0px;
+    font-size: 80px;
+  }
+  .conteudo-inicio h2 {
+    margin: 10px 0;
+    font-size: 50px;
+  }
+  
+  .conteudo-inicio p {
+    margin: 10px 0;
+    font-size: 20px;
+    padding: 0px 0px 70px 0px;
+  }
+  
+  /* Sobre Mim*/
+  
+  .sobreMim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: justify;
+  }
+  .sobreMim h2 {
+    font-size: 40px;
+    padding-top: 90px;
+    padding-bottom: 20px;
+  }
+  
+  .sobreMim img {
+    border-radius: 50%;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .sobreMim p {
+    max-width: 800px;
+    font-size: 20px;
+  }
+  
+  /*projetos*/
+  .meus-projetos {
+    margin-top: 200px;
+    border-top: #5c5c5c 2px solid;
+  }
+  
+  .meus-projetos h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 40px;
+  }
+  
+  .projetos {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    display: flex;
+    border-radius: 30px;
+    flex-direction: column;
+    background-color: #5c5c5c;
+    margin: 20px;
+    width: 350px;
+    height: 750px;
+  }
+  .card img {
+    height: 300px;
+    width: 350px;
+    border-radius: 30px 30px 0 0;
+  }
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .conteudo h3 {
+    margin: 25px;
+    color: #f3e306;
+    font-size: 25px;
+  }
+  
+  .conteudo h5 {
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 20px;
+  }
+  
+  .conteudo p {
+    max-width: 300px;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  /*img github*/
+  .conteudo img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+  }
+  .conteudo img:hover {
+    box-shadow: 0px 0px 8px #00ff08;
+  }
+  /*Habilidades*/
+  
+  .habilidades {
+    margin-top: 200px;
+    border-top: #5c5c5c 2px solid;
+    
+  }
+  
+  .habilidades h2 {
+    display: flex;
+    color: #6573f1;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 60px;
+  }
+  .quadro-habilidades {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .quadro1 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: #3421cc;
+    border-radius: 50px;
+    margin-right: 30px;
+  }
+  
+  .quadro2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3421cc;
+    padding: 40px;
+    border-radius: 50px;
+  }
+  
+  .hab1,
+  .hab2,
+  .exp1,
+  .exp2 {
+    background-color: #000000;
+    width: 450px;
+    height: 55px;
+    text-align: center;
+  }
+  
+  .hab1,
+  .hab2 {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+  }
+  
+  .exp1,
+  .exp2 {
+    margin-bottom: 15px;
+    padding: 20px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+  /*Formação*/
+  .formacao {
+    margin-top: 200px;
+    border-top: #5c5c5c 2px solid;
+    margin-bottom: 200px;
+  }
+  
+  .formacao h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  .certificado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  .certificado div {
+    border: 3px solid #5c5c5c;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    height: auto;
+  }
+  .certificado img {
+    max-width: 100%;
+  }
+  
+  
+  /*contato*/
+  .contato {
+    display: flex;
+    align-items: center;
+    border-top: #5c5c5c 2px solid;
+    border-bottom: #5c5c5c 2px solid;
+  }
+  
+  .cont-text {
+    border-right: #5c5c5c 2px solid;
+  
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 240px;
+    font-size: 25px;
+    padding-top: 80px;
+  }
+  .inf-quadro {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .inf-quadro p {
+    margin-bottom: 20px;
+  }
+  
+  .inf-quadro img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+  }
+  .inf-quadro img:hover {
+    box-shadow: 0px 0px 8px #00ff08;
+  }
+  
+  .linkedin-contato,
+  .github-contato {
+    display: inline-flex;
+  }
+  .github-contato img {
+    border-radius: 50%;
+  }
+  
+  /*footer*/
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 150px;
+  }
+  
+  footer h3 {
+    font-size: 20px;
+    margin: 10px;
+  }
+  
+  footer p {
+    font-size: 15px;
+    margin-top: 50px;
+  }
+  
+
+  
+  /* CSS Geral Mantido Aqui... */
+  
+  
+  /* Estilos para dispositivos muito pequenos (abaixo de 576px) */
+  @media (max-width: 575px) {
+    
+    /* Cabeçalho e Nav */
+   
+    
+  
+    header> .interface {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    header nav a {
+      display: none;
+    }
+  
+   
+    .logo img {
+      height: 100px;
+      width: 100px;
+    }
+    .btn-contato button {
+      margin-top: 15px;
+      padding: 5px 20px;
+      background-color: #00ff08;
+    }
+    .sobreMim img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    
+    /* Conteúdo de introdução */
+    .conteudo-inicio {
+      margin-bottom: 0px;
+    }
+  
+    .conteudo-inicio h1 {
+      font-size: 20px;
+      padding: 10px 0px 5px 0px;
+    }
+  
+    .conteudo-inicio h2 {
+      font-size: 18px;
+    }
+  
+    .conteudo-inicio p {
+      font-size: 14px;
+      padding: 0 10px;
+      text-align: center;
+    }
+  
+    /* Seção "Sobre Mim" */
+    .sobreMim h2 {
+      font-size: 20px;
+    }
+    .sobreMim img {
+      width: 100px;
+    }
+  
+    .sobreMim p {
+      font-size: 12px;
+      padding: 0 15px;
+    }
+    
+    /* Projetos */
+    .meus-projetos h2{
+      font-size: 20px;
+    }
+  
+  
+    .card {
+      width: 90%;
+      height: auto;
+    }
+    
+   
+  .conteudo p {
+  padding: 10px;
+  }
+  
+    .card img {
+      width: 100%;
+    }
+  /*imagem git hub*/
+    .conteudo img {
+      width: 40px;
+      height: auto;
+    }
+  
+    /* Habilidades */
+    .habilidades h2 {
+      font-size: 20px;
+    }
+  
+    .quadro-habilidades {
+      flex-direction: column;
+      padding: 0;
+    }
+  .quadro1
+  {
+    margin:0;
+  }
+    .hab1, .hab2, .exp1, .exp2 {
+      width: 100%;
+      font-size: 10px;
+    }
+  
+    /* Seção "Formação" */
+    .formacao h2 {
+      font-size: 20px;
+    }
+  
+    .certificado div {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    /* Contato */
+    .contato {
+      flex-direction: column;
+    }
+  
+    .cont-text {
+      width: 100%;
+      height: auto;
+      text-align: center;
+      padding: 10px;
+      border-right: none;
+      font-size: 20px;
+      border-bottom: #5c5c5c 2px solid;
+    }
+  
+    .inf-quadro {
+      
+      margin: 5px;
+      font-size: 15px;
+    }
+    
+  
+    /* Footer */
+    footer {
+      font-size: 14px;
+      padding: 15px;
+    }
+  
+    footer h3 {
+      font-size: 18px;
+    }
+  }
+  /* Estilos para celulares e acima (576px) */
+  @media (min-width: 576px) {
+    body{
+      width: 100%;
+    }
+    header {
+      padding: 30px 5%;
+    }
+    header nav a {
+      font-size: 15px;
+    }
+  
+    .conteudo-inicio h1 {
+      font-size: 60px;
+    }
+    
+    .conteudo-inicio h2 {
+      font-size: 40px;
+    }
+    
+    .conteudo-inicio p {
+      font-size: 18px;
+      
+    }
+  
+    .sobreMim p{
+      padding: 20px;
+      
+    }
+  
+    .habilidades h2 {
+      font-size: 40px;
+    }
+  
+    .quadro2 , .quadro1{
+      margin :0;  
+      
+    }
+    .quadro2{
+      margin-top: 2em;
+    }
+    
+  
+    /* Outros ajustes específicos para esse tamanho */
+  }
+  
+  /* Estilos para tablets e acima (768px) */
+  @media (min-width: 768px) {
+    header {
+      padding: 30px 6%;
+    }
+  
+    .conteudo-inicio h1 {
+      font-size: 70px;
+    }
+    
+    .conteudo-inicio h2 {
+      font-size: 45px;
+    }
+    
+    .conteudo-inicio p {
+      font-size: 20px;
+    }
+    
+   
+    
+  
+    /* Outros ajustes para o layout de tablet */
+  }
+  
+  /* Estilos para desktops e acima (992px) */
+  @media (min-width: 992px) {
+    header{
+      padding: 0;
+    }
+  
+    header nav a{
+     font-size: 15px;
+    }
+  header nav ul li {
+    padding: 0 10px;
+  }
+  
+    .habilidades h2 {
+      font-size: 40px;
+    }
+    
+    /* Outros ajustes para o layout de desktop */
+  }
+  
+  /* Estilos para desktops grandes e acima (1200px) */
+  @media (min-width: 1200px) {
+    header {
+      padding: 40px 8%;
+    }
+    header nav a{
+      font-size: 25px;
+     }
+  
+    .conteudo-inicio h1 {
+      font-size: 80px;
+    }
+    
+    .conteudo-inicio h2 {
+      font-size: 50px;
+    }
+    
+    .conteudo-inicio p {
+      font-size: 22px;
+    }
+  
+    .quadro-habilidades {
+      justify-content: space-evenly;
+    }
+  .quadro1,.quadro2{
+    margin-top: 10px;
+  }
+    /* Outros ajustes para layout de desktops grandes */
+  }
+  

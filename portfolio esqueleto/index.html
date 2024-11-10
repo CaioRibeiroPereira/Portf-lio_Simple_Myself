@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="interface">
+        <div class="logo">
+          <a href="#inicio">
+            <img
+              src="/imagens/logo pagina.png"
+              alt="Logo da página"
+              title="Logo"
+              id="inicio"
+            />
+          </a>
+        </div>
+        <nav class="menu-desktop">
+          <ul>
+            <li><a href="#sobre_mim">Sobre Mim</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#formacao_academica">Formação</a></li>
+          </ul>
+        </nav>
+        <div class="btn-contato">
+          <a href="#contato">
+            <button>Contato</button>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="apresentacao">
+        <div class="conteudo-inicio">
+          <h1>Nome</h1>
+          <h2>Desenvolvedor Web</h2>
+          <p>Front-end</p>
+        </div>
+      </section>
+
+      <section class="sobreMim" id="sobre_mim">
+        <h2>Sobre Mim</h2>
+        <img src="/imagens/foto perfil .jpg" alt="foto de perfil" title="foto do perfil" />
+        <p>
+          <!-- Texto genérico sobre o desenvolvedor -->
+        </p>
+      </section>
+
+      <section class="meus-projetos" id="projetos">
+        <h2>Projetos</h2>
+        <div class="projetos">
+          <article class="projeto-card">
+            <div class="card">
+              <img src="/imagens/javascript-logo.png" alt="Logo JavaScript" title="logo JavaScript" />
+              <div class="conteudo">
+                <h3>JavaScript</h3>
+                <h5>Curso</h5>
+                <p>Descrição do projeto relacionado ao curso de JavaScript.</p>
+                <a href="#" target="_blank">
+                  <img src="/imagens/github-mark-white.svg" alt="Github ícone" title="Ícone GitHub" />
+                </a>
+              </div>
+            </div>
+          </article>
+          <!-- Outros artigos de projetos genéricos -->
+        </div>
+      </section>
+
+      <section class="habilidades" id="habilidades">
+        <h2>Habilidades</h2>
+        <div class="quadro-habilidades">
+          <div class="quadro1">
+            <dl>
+              <dt class="hab1">HTML e CSS</dt>
+              <dd class="exp1">Instituição de Ensino</dd>
+              <dt class="hab2">JavaScript</dt>
+              <dd class="exp2">Instituição de Ensino</dd>
+              <!-- Outras habilidades -->
+            </dl>
+          </div>
+          <div class="quadro2">
+            <dl>
+              <dt class="hab1">Metodologia Ágil</dt>
+              <dd class="exp1">Instituição</dd>
+              <!-- Outras habilidades -->
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="formacao" id="formacao_academica">
+        <h2>Formação Acadêmica</h2>
+        <div class="certificado">
+          <div class="cert1">
+            <img
+              src="/imagens/certificado.jpg"
+              alt="Formação em programação"
+              title="Formação em programação"
+            />
+          </div>
+          <!-- Outros certificados -->
+        </div>
+      </section>
+
+      <section class="contato" id="contato">
+        <div class="cont-text">
+          <h2>Contato</h2>
+        </div>
+        <div class="inf-quadro">
+          <p>Email: exemplo@email.com</p>
+          <div class="github-contato">
+            <a href="#" target="_blank">
+              <img src="/imagens/github-mark-white.svg" alt="Github ícone" title="Ícone GitHub" class="Git-icone" />
+            </a>
+          </div>
+          <div class="linkedin-contato">
+            <a href="#" target="_blank">
+              <img src="/imagens/linkedin-icone.svg" alt="Linkedin ícone" title="Ícone LinkedIn" />
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <p>&copy; 2024 Portfólio. Todos os direitos reservados. Desenvolvido por Caio Pereira</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

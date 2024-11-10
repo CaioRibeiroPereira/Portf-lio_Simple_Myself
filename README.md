@@ -1,8 +1,12 @@
-Portfólio de Caio Ribeiro Pereira
+Portfólio de Caio Ribeiro Pereira.
+
+
 Este é o esqueleto do meu portfólio, desenvolvido como projeto final da matéria de CSS e HTML no Instituto Infnet no curso de Engenharia de Software. 
+
 Este projeto representa a base da minha identidade profissional na web, com estrutura e estilos fundamentais em HTML5 e CSS3, e serve como ponto de partida para melhorias contínuas.
 
 Estrutura
+
 Header: Contém a logo e o menu de navegação.
 Seções principais: Sobre Mim, Projetos, Habilidades, Formação Acadêmica, Contato.
 Footer: Informação de direitos autorais e meu nome como desenvolvedor.
